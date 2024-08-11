@@ -23,11 +23,11 @@
     background: transparent;
     font-size: 15px;
     color: slategray;
-    border: 1px solid red;
+    border: 1px solid tomato;
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 .navbar button:hover{
     background-color: tomato;
@@ -39,11 +39,14 @@
 .navbar li{
     cursor: pointer;
 }
+.navbar-search-icon{
+    position: relative;
+}
 .navbar-search-icon .dot{
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: red;
+    background-color: tomato;
     border-radius: 5px;
     top: -8px;
     right: -8px;
