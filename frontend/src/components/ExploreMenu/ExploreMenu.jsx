@@ -9,7 +9,7 @@ const ExploreMenu = ({category,setCategory}) => {
             Explore our menu
         </h1>
         <p className="explore-menu-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde ullam recusandae quisquam, repudiandae, ea ipsum quia at assumenda adipisci iure est ipsam? Consequuntur, eaque at.
+           Choose from deliver menu featuring a deactable array of dishes.
         </p>
         <div className="explore-menu-list">
             {menu_list.map((item,index) => {
