@@ -9,7 +9,7 @@ const ExploreMenu = ({category,setCategory}) => {
             Explore our menu
         </h1>
         <p className="explore-menu-text">
-           Choose from deliver menu featuring a deactable array of dishes.
+           Choose from a diverse menu featuring a delectable array of dishes.Our mission is to satisfy your cravings and elevate your dinning experince, one delicious meal at a time.
         </p>
         <div className="explore-menu-list">
             {menu_list.map((item,index) => {
